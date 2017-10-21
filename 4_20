@@ -1,0 +1,6 @@
+cislo = int(input("Zadej celé číslo: "))
+
+if cislo % 2 == 0:
+    print("Číslo", cislo, "je sudé.")
+else:
+    print("Číslo", cislo, "je liché.")
