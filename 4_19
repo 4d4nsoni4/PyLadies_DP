@@ -1,0 +1,8 @@
+prvni = float(input("Napiš první číslo: "))
+druhe = float(input("Napiš druhé číslo: "))
+treti = float(input("Napiš třetí číslo: "))
+
+if prvni + druhe + treti > 10:
+    print("Součet tvých čísel je větší než 10.")
+else:
+    print("Součet tvých čísel není větší než 10.")
