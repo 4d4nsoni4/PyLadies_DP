@@ -1,0 +1,11 @@
+for X in range(5):
+    print("X", end=' ')
+print("X")
+print("X", end=' ')
+for pocet in range(4):
+    for mezera in range(4):
+        print(" ", end=' ')
+    print("X")
+    print("X", end=' ')
+for X2 in range(5):
+    print("X", end=' ')
