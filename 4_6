@@ -1,0 +1,3 @@
+hodnota = 0
+for radek in range(5):
+    print("Řádek", hodnota + radek)
