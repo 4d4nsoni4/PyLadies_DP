@@ -1,0 +1,48 @@
+#jsou tady přepsaná všechny úlohy
+
+#5
+zadani = input("Zadej písmeno, nebo číslo: ")
+pocet = int(input("Kolikrát to chceš zopakovat? "))
+
+for x in range(pocet):
+    print(zadani)
+
+#6
+pocet = int(input("Kolik řádků potřebuješ? "))
+hodnota = 0
+for radek in range(pocet):
+    print("Řádek", hodnota + radek)
+
+#8
+pocet = int(input("Jakou nejvyšší mocninu potřebuješ? "))
+for mocnina in range(pocet + 1):
+    print(mocnina, "na druhou je", mocnina**2)
+
+#9
+Zsloupec = int(input("Zadej počet sloupců: "))
+Zradek = int(input("Zadej počet řádků: "))
+for sloupec in range(Zsloupec):
+    for radek in range(Zradek-1):
+        print("X", end=' ')
+    for posledni in range(1):
+        print("X")
+
+#11
+pocet = int(input("Zadej pocet řádků trojúhelníku: "))
+for X in range(pocet+1):
+    print(X*'X ')
+
+#13
+sloupec = int(input("Kolik sloupců má mít rám? "))
+radek = int(input("A kolik řádků? "))
+for X in range(sloupec - 1):
+    print("X", end=' ')
+print("X")
+print("X", end=' ')
+for pocet in range(radek - 2):
+    for mezera in range(sloupec - 2):
+        print(" ", end=' ')
+    print("X")
+    print("X", end=' ')
+for X2 in range(sloupec - 1):
+    print("X", end=' ')
