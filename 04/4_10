@@ -1,3 +1,9 @@
+#program po uprave
+for nasobek in range(5):
+    for sloupec in range(5):
+        print(sloupec*nasobek, end=' ')
+    print(' ')
+    
 #puvodni program
 for nula in range(4):
     print(0, end=' ')
@@ -14,9 +20,3 @@ print(3*4)
 for ctyri in range(4):
     print(0 + 4*ctyri, end=' ')
 print(4*4)
-
-#po uprave
-for nasobek in range(5):
-    for sloupec in range(5):
-        print(sloupec*nasobek, end=' ')
-    print(' ')
