@@ -1,6 +1,0 @@
-if True:
-    print("prvni radek")
-    for radek in range(3):
-        print("neni prvni")
-else:
-    print("nic")

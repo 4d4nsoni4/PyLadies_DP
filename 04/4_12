@@ -1,0 +1,14 @@
+#puvodni program
+if True:
+    print("prvni radek")
+    for radek in range(3):
+        print("neni prvni")
+else:
+    print("nic")
+   
+#po uprave
+for a in range(4):
+    if a == 0:
+        print("prvni radek")
+    else:
+        print("neni prvni")
