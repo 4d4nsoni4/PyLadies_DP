@@ -1,3 +1,4 @@
+#puvodni program
 for X in range(5):
     print("X", end=' ')
 print("X")
@@ -9,3 +10,15 @@ for pocet in range(4):
     print("X", end=' ')
 for X2 in range(5):
     print("X", end=' ')
+
+#po uprave
+for radek in range(6):
+    if radek == 0 or radek == 5:
+        for CelyRadek in range(6):
+            print('X', end=' ')
+        print()
+    else:
+        print('X', end=' ')
+        for mezera in range(4):
+            print(' ', end = ' ')
+        print('X')
