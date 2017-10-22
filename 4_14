@@ -32,7 +32,7 @@ pocet = int(input("Zadej pocet řádků trojúhelníku: "))
 for X in range(pocet+1):
     print(X*'X ')
 
-#13
+#13 pred upravou
 sloupec = int(input("Kolik sloupců má mít rám? "))
 radek = int(input("A kolik řádků? "))
 for X in range(sloupec - 1):
@@ -46,3 +46,18 @@ for pocet in range(radek - 2):
     print("X", end=' ')
 for X2 in range(sloupec - 1):
     print("X", end=' ')
+    
+#13 po uprave
+radek = int(input("Kolik radku ma mit ctyruhelnik? "))
+sloupec = int(input("A kolik sloupcu? "))
+
+for ctverec in range(radek):
+    if ctverec == 0 or ctverec == radek-1:
+        for CelyRadek in range(sloupec):
+            print('X', end=' ')
+        print()
+    else:
+        print('X', end=' ')
+        for mezera in range(sloupec-2):
+            print(' ', end = ' ')
+        print('X')
