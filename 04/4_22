@@ -1,0 +1,4 @@
+from math import factorial
+
+n = int(input("Zadej celé číslo 'n': "))
+print("Faktoriál čísla", n, "je", factorial(n))
