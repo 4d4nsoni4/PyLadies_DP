@@ -27,10 +27,28 @@ for sloupec in range(Zsloupec):
     for posledni in range(1):
         print("X")
 
+#10
+radek = int(input("Zadej počet řádků: "))
+sloupec2 = int(input("Zadej počet sloupců: "))
+
+for nasobek in range(radek):
+    for sloupec in range(sloupec2):
+        print(sloupec*nasobek, end=' ')
+    print(' ')
+
 #11
 pocet = int(input("Zadej pocet řádků trojúhelníku: "))
 for X in range(pocet+1):
     print(X*'X ')
+
+#12
+pocetRadku = int(input("Zadej počet řádků: "))
+
+for a in range(pocetRadku):
+    if a == 0:
+        print("prvni radek")
+    else:
+        print("neni prvni")
 
 #13 pred upravou
 sloupec = int(input("Kolik sloupců má mít rám? "))
