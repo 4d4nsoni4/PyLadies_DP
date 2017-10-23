@@ -2,3 +2,12 @@ from math import factorial
 
 n = int(input("Zadej celé číslo 'n': "))
 print("Faktoriál čísla", n, "je", factorial(n))
+
+
+#zatim pro cisla <1; 100> nez vymyslim lepsi reseni
+n = int(input("Zadej číslo od 1 do 100: "))
+
+if n<100 and n>1 and n % 2 and n%3 and n%5 and n%7 != 0:
+    print(n, "je prvočíslo")
+else:
+    print(n, "neni prvocislo")
