@@ -1,0 +1,21 @@
+def dum():
+    """ funkce, která po zadání velikosti nakreslí domeček """
+    from turtle import forward, left, right, exitonclick
+    from math import sqrt
+    odmocnina = sqrt(2)
+    koeficient = int(input("Zadej velikost strany: "))
+    for strana in range(4):
+        forward(2*koeficient)
+        left(90)
+    left(45)
+    forward(odmocnina*2*koeficient)
+    for uhel in 1, 2:
+        left(90)
+        forward(odmocnina*koeficient)
+    left(90)
+    forward(odmocnina*2*koeficient)
+    left(45)
+    forward(30)
+    exitonclick()
+
+dum()
