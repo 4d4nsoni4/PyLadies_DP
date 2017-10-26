@@ -1,0 +1,5 @@
+prijmeni = input("Napiš svoje příjmení s diakritikou: ")
+if prijmeni.endswith('á') == True:
+    print("Jsi žena.")
+else:
+    print("Jsi muž.")
