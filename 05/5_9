@@ -1,0 +1,21 @@
+#mám útržky toho, co předpokládám bude ve výsledném kódu, jen nevím, jak to poskládat
+
+pozice = int(input("Pozice x/o: "))
+znak = input("Tvůj znak je: ")
+retezec = "-------------------"
+
+#zameni '-' za 'x'
+def zamena(retezec, pozice, znak):
+    """ fce zamění '-' za x/o """
+    radek = retezec[:pozice] + znak + retezec[pozice+1:]
+    return radek
+
+#tohle bude ve fci 'vyhodnot'
+if ('xxx' in retezec) == True:
+    print("x")
+elif ('ooo' in retezec) == True:
+    print("o")
+elif ('-' in retezec) == False:
+    print("!")
+else:
+    print("-")
