@@ -1,6 +1,6 @@
 from random import randrange
 
-pole = "-" * 20
+pole = 20 * "-"
 
 def vyhodnot(pole):
     if 'xxx' in pole:
