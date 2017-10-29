@@ -1,4 +1,4 @@
- #program jsem upravila tak, aby písmeno, jehož výskyt má spočítat, zadal uživatel
+#program jsem upravila tak, aby písmeno, jehož výskyt má spočítat, zadal uživatel
 
 text = """ Ooooo oooooo ohoohohoo
 Ooooo ohooohoo oooohoo
@@ -43,6 +43,6 @@ def pocet_pismen():
     """ napíše, kolikrát se zadané písmeno vyskytuje v textu písničky Somewhere over the rainbow
         (funguje i na tecky a apostrofy) """
     pismeno = input("Napiš písmeno: ")
-    print("Počet písmen", pismeno, "v textu je: ", text.count(pismeno))
+    print("Počet písmen", pismeno.lower(), "v textu je: ", text.lower().count(pismeno))
 
 pocet_pismen()
