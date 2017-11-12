@@ -1,3 +1,5 @@
+#funkce tah mi nešla přivolat a musela jsem ji do kódu vložit, musí se to dělat takhle, nebo se to dá nějak udělat?
+
 import ai
 
 def test_tah_pocitace():
